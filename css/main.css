@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-weight: normal;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+body {
+  background-color: #f04235;
+  font-family: 'Noto Sans SC', sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+nav ul {
+  width: 48%;
+}
+
+nav ul > li {
+  line-height: 1.1;
+}
+
+nav ul > li > a {
+  color: #fff;
+  font-size: 14px;
+}
+
+nav ul > li > a.active {
+  text-decoration: underline;
+}
+
+nav ul > li > a:hover {
+  text-decoration: underline;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background-image: url(/img/IT_438-Jeff-Busby-srgb-800x533.jpg);
+  background-position: right 10%;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+header > div {
+  width: 48%;
+}
+
+header > div.title {
+  margin-bottom: 50px;
+}
+
+header > div.title > h1 {
+  font-size: 4.1em;
+  line-height: 1;
+}
+
+header > div.right {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-bottom: 20px;
+}
+
+header > div.left {
+  font-size: 10px;
+}
+
+header > div.left p {
+  margin-bottom: 10px;
+}
+
+section > h3 {
+  padding: 16px 0;
+}
+
+section > .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section > .container .person {
+  width: 48%;
+  position: relative;
+}
+
+section > .container .person .photo {
+  position: relative;
+}
+
+section > .container .person .photo .img-fluid {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  display: block;
+}
+
+section > .container .person .photo .cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(125, 0, 0, 0.6);
+  z-index: 2;
+  top: 0;
+}
+
+section > .container .person .about p {
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 10px;
+  margin-top: 50px;
+  padding: 20px 0 20px 0;
+}
+
+footer .contacts a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+footer .copyrights {
+  font-size: 8px;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  text-orientation: mixed;
+  margin-right: -10%;
+}
+/*# sourceMappingURL=main.css.map */
